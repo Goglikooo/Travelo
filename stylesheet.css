@@ -1,0 +1,824 @@
+.underline:hover {
+    color: #ff4a52;
+}
+.underline {
+    color: #AAB1B7;
+    font-size: 16px;
+}
+.underline0:hover {
+    color: #ff4a52;
+}
+.underline0 {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+.fotoebi1:hover > .shidaplacesi button {
+    background-color: #ff4a52;
+}
+.fotoebi1:hover > .places1 h5 {
+    color: #ff4a52;
+}
+.fotoebi1:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.fotoebi:hover {
+    transition: 0.3s;
+    margin-top: -15px;
+    
+}
+.fotoebi:hover > .shidadesti {
+    color: #ff4a52;
+    
+}
+.fotoebi:hover > .shidadesti button {
+    background-color: #ff4a52;
+}
+
+.bolozoli{
+    width: 85%;
+    border-top: 1px solid rgba(201, 200, 200, 0.466);
+    background: #0f1836;
+    margin-top: 100px;
+
+}
+
+.withlove {
+    font-size: 14px;
+    color: #7A838B;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+.dashorebaqvemot {
+    padding-top: 8px;
+}
+.instagramis {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+.sveti4 img {
+    border-radius: 7px;
+    margin-top: 5px;
+}
+.socialmedia2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.soc-media-icon2 {
+    width: 17px;
+    
+}
+.half {
+    display: flex;
+    justify-content: space-between;
+
+}
+.sveti1 img {
+    padding-top: 24px;
+}
+.sveti1 p{
+    font-size: 17px;
+    margin-top: 48px;
+}
+.footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background: #0f1836;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .sveti1 a, .sveti2 a, .sveti3 a {
+        display: block;
+        text-decoration: none;
+        margin-top: 20px;
+        font-family: sans-serif;
+    }
+    .sveti1, .sveti2, .sveti3, .sveti4 {
+        width: 250px;
+        margin-left: 20px;
+        color: white;
+        font-family:'Rubik', sans-serif;;
+        font-weight: 100;
+        font-size: 20px;
+    }
+.recent-trips h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+.journeys p {
+    color: gray;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.journeys h4 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.journeys img {
+    width: 350px;
+    height: 250px;
+}
+
+.journeys {
+    width: 400px;
+    height: 400px;
+
+}
+.container5{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.container4 p {
+    font-family: 'Rubik', sans-serif;;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.quoteimg {
+    margin-top: 100px;
+}
+.container4 {
+    text-align: center;
+    background: rgb(248, 248, 248);
+    height: 400px;
+}
+.aftervideoh5 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aftervideoinfo {
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.aftervideo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.play-btn {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient( rgba(10, 212, 61, 0.8) 60%, #1EC6B6 62%);
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    margin: 100px auto;
+    box-shadow: 0px 0px 25px 3px #1EC6B6;
+  }
+
+/* triangle */
+.play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-40%) translateY(-50%);
+    transform: translateX(-40%) translateY(-50%);
+    transform-origin: center center;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #fff;
+    z-index: 100;
+    -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  /* pulse wave */
+  .play-btn:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate1 2s;
+    animation: pulsate1 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid #1EC6B6;
+    top: -30%;
+    left: -30%;
+    background: rgba(198, 16, 0, 0);
+  }
+  
+  @-webkit-keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      opacity: 1;
+      box-shadow: inset 0px 0px 25px 3px rgba(204, 61, 61, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 0;
+      box-shadow: none;
+    }
+  }
+  
+  @keyframes pulsate1 {
+    0% {
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      opacity: 1;
+      box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+      transform: scale(1);
+      opacity: 0;
+      box-shadow: none;
+  
+    }
+  }
+
+.videobttnimg {
+    width: 120px;
+    height: 120px;
+    background-color: #1ec6b6;
+}
+.videobttn {
+    background: #1ec6b6;
+    display: inline-block;
+    font-weight: 500;
+    border: 0;
+    border-radius: 50%;
+}
+
+.perfectdes {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 33px;
+    margin-bottom: 49px;
+    font-weight: 400;
+}
+.enjoyvideo {
+    font-family:"Nothing You Could Do",cursive;
+    color: white;
+    font-weight: 100;
+    padding-top: 130px;
+
+}
+.warwera h2{
+    font-size: 70px;
+    padding-top: 150px;
+}
+.warwera {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 700px;
+}
+.didifoto2 {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+
+}
+
+.desty {
+    width: 100%;
+    background-color: rgb(234, 235, 232);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.days {
+    margin-right: 20px;
+}
+.shefaseba {
+    display: flex;
+    align-items: center;
+}
+.review1 {
+    display: flex;
+    align-items: center;
+    /* background: chartreuse; */
+    justify-content: space-between;
+}
+.stars {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    margin-right: 10px;
+    /* background: blue; */
+}
+.places1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.placescity {
+    color: black;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.fotoebi1 {
+    width: 370px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: black;
+    border-radius: 8px;
+}
+.shidaplacesi {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+.shidaplacesi button {
+    display: inline-block;
+    background: #1EC6B6;
+    font-size: 17px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 0px 15px;
+    height: 29px;
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+}
+.email-search:hover {
+    background-color: #1EC6B6;
+}
+.email-search a{
+    text-decoration: none;
+    color: #fff;
+}
+.email-search {
+    background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 6px;
+    height: 65px;
+}
+.mailright input {
+    width: 380px;
+    height: 65px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: none;
+}
+.mailright {
+    width: 40%;
+    /* background: chartreuse; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 25px;
+}
+.mailleft p {
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -20px;
+    color: white;
+    font-family: sans-serif;
+}
+.mailleft h5 {
+    margin-bottom: 0;
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+}
+.mailleft {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    /* background: cornflowerblue; */
+    margin-right: 25px;
+}
+
+.mailcontainer {
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/newsletter.png.webp) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dapataraveba {
+    width: 30%;
+    margin: 0px;
+}
+.fotoebi img {
+    filter: brightness(50%);
+}
+.shidaplaces {
+    margin-left: 5px;
+
+    
+}
+.shidadesti {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+
+}
+
+.shidadesti button {
+    display: inline-block;
+    background: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 0px 12px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+}
+
+.qvedap {
+    font-size: 1.2vw;
+    color: #7A838B;
+    line-height: 28px;
+    /* margin-bottom: 0; */
+    font-weight: 400;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 2.7vw;
+    font-weight: 400;
+    color: #040E27;
+    padding-bottom: 7px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.zedatext {
+    width: 90%;
+    margin: 30px 20px;
+    height: 250px;
+    display: flex;
+    justify-content: center; 
+
+}
+
+.fotoebi {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    /* background-color: aqua; */
+}
+
+.destionationspic {
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.jurji-search a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Rubik",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.jurji-search:hover {
+    background-color: #1ec6b6;
+}
+.jurji-search {
+    background: #ff4a52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    border: 0;
+    border-radius: 6px;
+    height: 50px;
+}
+.boxi {
+    width: 15%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #363e52;
+    padding-left: 15px;
+    color: #fff;
+    overflow: visible;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.lurji {
+    width: 100%;
+    background:#040e27;
+    color: white;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.lurjip {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-right: 20px;
+    color: white;
+}
+.explbtn a {
+    text-decoration: none;
+    color: white;
+    font-family:'Rubik' sans-serif;
+}
+.explbtn {
+    background: #1ec6b6;
+    color: white;
+    display: inline-block;
+    padding: 18px 41px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+}
+.explbtn:hover{
+    background-color:#ff4a52;
+}
+.perfectdes {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 33px;
+    margin-bottom: 49px;
+    font-weight: 400;
+}
+.indonesia {
+    font-family:"Nothing You Could Do",cursive;
+    color: white;
+    font-weight: 100;
+    padding-top: 130px;
+
+}
+.warwera h1{
+    font-size: 150px;
+    padding-top: 0;
+}
+.warwera {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 700px;
+}
+.didifoto {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/xbanner2.png.pagespeed.ic.XXlHdbyWF8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top:90px;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #1366aa;   
+}
+
+.soc-media-icon {
+    width: 20px;
+    margin: 0% 13px;
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+}
+nav {
+    height:80px;
+    background: white;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    position: fixed;
+}
+.phone-number {
+    font-size: 16px;
+    display: inline-block;
+    color: #040e27;
+    font-family: sans-serif;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: chartreuse; */
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    /* background-color: chocolate; */
+    /* width: 30%; */
+}
+
+.left, .right {
+    margin: 0% 5%;
+    padding-top: 1%;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+    /* font-family: sans-serif; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+li a:hover {
+    color: #ff4a52;
+}
+ li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #040e27;
+    font-size: 17px;
+    font-family:sans-serif;
+ }
+ .searchresponsive {
+    display: flex;
+    align-items: center;
+    background-color: #ff4a52;
+    width: 70px;
+    height: 100px;
+ }
+
+ .searchresponsive {
+     display: none;
+ }
+
+ .resp800 {
+     display: none;
+ }
+.hamburgermenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    background-color: rgb(83, 82, 82);
+    color: white;
+    font-family: 'Rubik' sans-serif;
+    margin: 5px 15px;
+    border-radius: 3px;
+    
+}
+.hamburger {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    /* background-color: white; */
+}
+ @media only screen and (max-width: 1300px) {
+    .right {
+        display: none;
+    }
+    .searchresponsive {
+        display: flex;
+    }
+    .container5 {
+        margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 800px){
+      nav {
+          display: none;
+      }
+      .resp800 {
+        display: block;
+        height: 150px;
+        /* position: fixed; */
+    }
+    .lurjip {
+        width: 80%;
+    }
+    .boxi {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .jurji-search {
+        width: 30%;
+    }
+    .dapataraveba {
+        width: 70%;
+        
+    }
+    .dapataraveba h3 {
+        font-size: 40px;
+        margin-top: 1px;
+        width: 100%;
+    }
+    .qvedap {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .mailleft {
+        width: 80%;
+        height: 100px;
+        /* display: block; */
+    }
+    .mailleft h5 {
+        margin-top: 0;
+    }
+    .mailright {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -22px;
+    }
+    .mailright input {
+        width: 100%;
+    }
+    .mailright button {
+        width: 97%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+      .warwera  h1{
+          font-size: 220%;
+      }
+      .warwera {
+          width: 100%;
+      }
+      html, body {
+          margin: 0;
+      }
+  }
