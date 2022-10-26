@@ -1,5 +1,5 @@
 ## Travelo Travel Page
 
-## Challenge was to make an analogue of the current web page. 
+## Web developing - Practice 
 
-![screenshot](https://github.com/Goglikooo/Travelo/blob/main/travel-page-2.jpg)
+[Click Here to See The Page](https://goglikooo.github.io/Travelo/)
